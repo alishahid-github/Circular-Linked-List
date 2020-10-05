@@ -6,11 +6,6 @@ using namespace std;
 #define NODE
 class Node
 {
-private:
-	int data;
-	Node* next;
-	Node* prev;
-
 public:
 	Node();
 	Node(int d);			// d=data
@@ -20,9 +15,13 @@ public:
 	int get_data();
 	Node* get_next();
 	Node* get_prev();
-
+private:
+	int data;
+	Node* next;
+	Node* prev;
 
 };
 
 #endif
+
 
