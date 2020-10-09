@@ -13,7 +13,7 @@ private:
 
 public:
 	List();
-	int node_counter = 0;
+	int node_counter = 0;		//couter to check how many nodes are inserted
 	bool insert(int d);		// d=data
 	bool insert_at(int d, int pos);
 	bool delete_list(int d);
