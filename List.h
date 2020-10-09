@@ -13,13 +13,13 @@ private:
 
 public:
 	List();
-	int node_counter = 0;		//counter variable to count how many nodes are inserted
+	int node_counter = 0;
 	bool insert(int d);		// d=data
 	bool insert_at(int d, int pos);
 	bool delete_list(int d);
 	void print();
 	int search(int d);
-	//void sort(); //this function to sort the elements
+	//void sort();
 	void set_head(Node* h);
 
 };
