@@ -1,4 +1,4 @@
-//.cpp file to implement the Liked List class
+//file to implement the Liked List class
 
 #include<iostream>
 #include"List.h"
