@@ -12,15 +12,13 @@ int main() {
 	l.insert(0);
 	l.insert(1);
 	l.insert(8);
-	l.insert(7)
 	l.insert(2);
 
 	l.print();
-	l.sort();
-	l.print();
+	//	/*l.sort();
+	//	l.print();*/ 
 
 	cout << "\n>>>>>>>>>>>>>>>>>>>Calling Search function\n";
-	
 	cout << "\nEnter the value to search ";
 	int opt1;
 	cin >> opt1;
